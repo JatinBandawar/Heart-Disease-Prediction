@@ -47,7 +47,7 @@ with open("knn_model.pkl", "rb") as file:
 # Project    
 st.markdown("<h1 style='text-align: center; font-size: 35px;'> Heart Disease Assessment </h1>", unsafe_allow_html=True)
 st.markdown(
-    "<p style='text-align: center; font-size: 15px;'>Created by Bishal Roy</p>",
+    "<p style='text-align: center; font-size: 15px;'>Created by Jatin Bandawar</p>",
     unsafe_allow_html=True
 )
 
@@ -503,3 +503,4 @@ key_conclusions_content = """
 with tab6:
     st.markdown(key_conclusions_content)
     
+
